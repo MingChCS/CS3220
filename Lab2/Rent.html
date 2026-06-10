@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="RetroVideo.css">
+
+    <title>Movie Renting</title>
+
+  </head>
+
+  <body id="body">
+
+    <header id="header">
+      <h1><img src="clapperboard-64x64.png" alt="Clapperboard Image"> Retro Video Rentals</h1>
+
+      <nav>
+        <a href="#">Movies</a> |
+        <a href="#">Rent a Movie</a> |
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+
+    <h2 id="page">Rent a Movies</h2>
+
+    <form id="form">
+      <label for="cName">Customer Name:</label>
+      <input type="text" id="cName" name="cName">
+
+      <label for="cEmail">Email:</label>
+      <input type="text" id="cEmail" name="cEmail">
+
+      <label for="movies">Movie:</label>
+
+      <select name="movies">
+        <option value="the last mission">The Last Mission</option>
+        <option value="laugh out loud">Laugh Out Loud</option>
+        <option value="a quiet road">A Quiet Road</option>
+        <option value="space friends">Space Friends</option>
+      </select>
+
+      <label for="rDuration">Rental Duration:</label>
+
+      <select name="rDuration">
+        <option value="1 day">1 Day</option>
+        <option value="3 days">3 Days</option>
+        <option value="5 days">5 Days</option>
+        <option value="7 days">7 Days</option>
+      </select>
+
+      <label for="pDate">Pickup Date:</label>
+      <input type="date" id="pDate" name="pDate">
+
+      <label for="membership">Membership:</label>
+      <div>
+        <input type="checkbox" id="membership" name="membership">
+        <label for="membership">I am a active member.</label>
+      </div>
+
+      <button type="submit">Request Rental</button>
+    </form>
+
+    <p id="lineBreak2"></p>
+
+    <footer id="footer">
+      <p>Copyright &copy Retro Video Rentals 2024 <br> All rights reserved.</p>
+    </footer>
+
+  </body>
+
+</html>

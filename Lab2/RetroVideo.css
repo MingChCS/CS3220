@@ -1,0 +1,110 @@
+#body {
+  margin: 0px;
+}
+
+#header {
+  text-align: center;
+  font-size: 55px;
+  background-color: darkblue;
+  color: white;
+}
+
+#header img {
+  vertical-align: middle;
+  padding-bottom: 15px;
+  width: 125px;
+  height: 125px;
+}
+
+#header h1 {
+  margin:0px;
+}
+
+#header a {
+  text-align: center;
+  color: white;
+  background-color: darkblue;
+  text-decoration: none;
+  padding: 0px 5px 0px 5px;
+}
+
+#header a:hover {
+  color: yellow;
+}
+
+#page {
+  font-size: 65px;
+  margin: 20px 0px 10px 0px;
+  padding-left: 10px;
+}
+
+#category {
+  font-size: 40px;
+  margin: 10px 0px 10px 0px;
+  padding-left: 10px;
+}
+
+#categoryBox {
+  font-size: 40px;
+  margin: 10px 0px 10px 0px;
+  padding: 0px 160px 0px 0px;
+}
+
+#table, th, td {
+  font-size: 40px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  table-layout: fixed;
+  padding: 10px;
+  margin: 10px;
+}
+
+#lineBreak {
+  margin-bottom: 160px;
+}
+
+#form {
+  font-size: 40px;
+  margin: 10px 0px 10px 0px;
+  padding-left: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  width: fit-content;
+  align-items: center;
+}
+
+#form input, #form select{
+  font-size: 40px;
+  margin: 10px 0px 10px 0px;
+}
+
+#form button {
+  grid-column: 2;
+  width: 300px;
+  font-size: 40px;
+  background-color: blue;
+  color: white;
+}
+
+#membership {
+  width: 30px;
+  height: 30px;
+}
+
+#lineBreak2 {
+  margin-bottom: 50px;
+}
+
+#footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: 35px;
+}
+
+#footer p {
+  margin: 0px;
+  padding: 10px 0px 20px 0px;
+}
