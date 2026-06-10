@@ -1,2 +1,2 @@
-# CS3220-lab1
-Dolphins Swim Academy
+# CS3220
+Lab1: Dolphins Swim Academy
