@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="RetroVideo.css">
+
+    <title>Movies Renting</title>
+
+  </head>
+
+  <body id="body">
+
+    <div id="headerBox">
+      <header id="header">
+        <h1><img src="clapperboard-64x64.png" alt="Clapperboard Image"> Retro Video Rentals</h1>
+      </header>
+    </div>
+
+    <div id="menu">
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">Rent a Movie</a></li>
+          <li><a href="#">Customers</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <h2 id="page">Movies</h2>
+
+    <label for="movies" id="category">Category:</label>
+
+    <select name="movies" id="categoryBox">
+      <option value="All Movies">All Movies</option>
+      <option value="Action">Action</option>
+      <option value="Comedy">Comedy</option>
+      <option value="Drama">Drama</option>
+      <option value="Family">Family</option>
+    </select>
+
+    <button type="button" id="category">Select</button>
+
+    <table id="table">
+      <thead>
+        <tr>
+          <th>Movie Title</th>
+          <th>Category</th>
+          <th>Rating</th>
+          <th>Rental Price</th>
+          <th>Available Copies</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>The Last Mission</td>
+          <td>Action</td>
+          <td>PG-13</td>
+          <td>$3.99</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Laugh Out Loud</td>
+          <td>Comedy</td>
+          <td>PG</td>
+          <td>$2.99</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>A Quiet Road</td>
+          <td>Drama</td>
+          <td>PG-13</td>
+          <td>$3.49</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>Space Friends</td>
+          <td>Family</td>
+          <td>G</td>
+          <td>$2.99</td>
+          <td>5</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <footer id="footer">
+      <p>Copyright &copy Retro Video Rentals 2026<br>All rights reserved.</p>
+    </footer>
+
+  </body>
+
+</html>
